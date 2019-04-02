@@ -1,133 +1,102 @@
-#include <stdio.h>
 #include <stdlib.h>
-#define cant 1
-
-/*primer ejemplo
+#include "matematicas1.h"
+#include "funciones1.h"
 
 int main()
 {
-    int datos[5];
-    int acum=0;
-    int i;
-    for(i=0;i<cant;i++){
-       printf("Ingrese una Edad:\n");
-       scanf("%d",&datos[i]);
-       acum=acum+datos[i];
-    }
-    i=0;
-    for(i=0;i<cant;i++){
-       printf("\nLa edad es %d",datos[i]);
-    }
-    printf("\nEl promedio de las edad es: %d",acum/cant);
-    return 0;
-}*/
+    int flag=0;
 
-/*int main()
-{
-  int legajo[cant];
-  int nota1[cant];
-  int nota2[cant];
-  int nota3[cant];
-  //float not3[3];
-  int i;
-  int acum=0;
-  for(i=0;i<cant;i++){
-      printf("\nIngrese numero de legajo:");
-      scanf("%d",&legajo[i]);
-      printf("\nIngrese nota 1:");
-      acum=acum+nota1[cant];
-      scanf("%d",&nota1[i]);
-      printf("\nIngrese nota 2:");
-      scanf("%d",&nota2[i]);
-      acum=acum+nota2[cant];
-      printf("\nIngrese nota 3:");
-      scanf("%d",&nota3[i]);
-      acum=acum+nota3[cant];
-    }
+    int A,B,X,Y;
 
-  for(i=0;i<cant;i++){
+    char ope;
 
-     printf("\nEl numero de legajo es %d",legajo[i]);
+    int menu;
 
-     printf("\nLa nota1 cargada es %d ",nota1[i]);
+    int resultsuma=0;
 
-     printf("\nLa nota2 cargada es %d ",nota2[i]);
+    int resulresta=0;
 
-     printf("\nLa nota3 cargada es %d ",nota3[i]);
-  }
+    int resultdiv=0;
 
-     //printf("\nEl numero de legajo es %d y el promedio de las notas es %d",acum/i);
+    int resultmult=0;
 
-    // printf("\nEl numero de legajo es %d y el promedio de las notas es %d",legajo[i],nota3[i]=(float)(nota1[i]+nota2[i])/2);
-*/
+    int resultfacta=1;
 
-    /*#include <stdio.h>
-    #define MAX 100
-    void main(void)
-    {
-    int edad[MAX],i,leg;
-    float sueldo[MAX],suma=0,prom,aux;
-    char seguir;
-    for(i=0;i<MAX;i++)
-    {
-    edad[i]=0;
-    sueldo[i]=0;
-    }
-    do
-    {
-    printf("Ingrese Legajo:");
-    scanf("%d",&leg);
-    printf("Ingrese Edad:");
-    scanf("%d",&edad[leg-1]);
-    fflush(stdin);
-    printf("Ingrese el sueldo:");
-    scanf("%f",&aux);
-    sueldo[i]=aux;
-    printf("\nDesea ingresar otro dato S/N?");
-    scanf("%c",&seguir);
-    cant++;
-    }while(seguir=='s');
+    int resultfactb=1;
 
-    suma=suma+sueldo[i];
-    prom=suma/MAX;
-    printf("\nEl sueldo promedio es %.2f",prom);
-    return 0;*/
-/*int main(){
+    int rta='S';
 
-    int i=0;
+    printf("\n\\\\BIENVENIDO A Programa CALCULADORA----////\n");
 
-    int max=0,min=0;
+    do{
+        //menu de opciones
 
-    int datos[cant];
+        printf("\n1-Ingresar primer operando (A=X):");
+               scanf("%d",&X);
+               A=X;
+        printf("\n2-Ingresar segundo operando (B=Y):");
+               scanf("%d",&Y);
+               B=Y;
+        printf("\n3-Calcular todas las operaciones:");
+        printf(" \n...a Calcular la suma(A+B):");
+        printf(" \n...b Calcular la resta(A-B):");
+        printf(" \n...c)Calcular la multiplicacion(A*B):");
+        printf(" \n...d)Calcular el factorial(A!):");
+        printf("\n4-Informar resultados:");
+        printf("...a)El resultado de A+B es \n:");
+        printf("...b)El resultado de A-B es \n:");
+        printf("...c)El resultado de A/B es \n:");
+        printf("...d)El resultado de A*B es \n:");
+        printf("...e)El resultado del factorial de A es % y de B es \n:");
+        printf("5- Salir\n");
 
-    for(i=0;i<cant;i++){
-      if(i==0 || datos[i]>max){
-         max=datos[i];
-         printf("El maximo es %d",max);
-      }
-      if(i==0 || datos[i]<min){
-         min=datos[i];
-         printf("El minimo es %d",min);
-      }
-   }*/
+       /* switch(menu){
 
-int main(){
+        //ingreso 1er operando
 
-    int vect[cant],i,j,aux;
-    for(i=0;i<cant-1;i++){
-      for(j=i+1;j<cant;j++)
-        if(vect[i]>vect[j]){
-           aux=vect[i]>vect[i]
-          }
-      if(i==0 || datos[i]>max){
-         max=datos[i];
-         printf("El maximo es %d",max);
-      }
-      if(i==0 || datos[i]<min){
-         min=datos[i];
-         printf("El minimo es %d",min);
-      }
-   }
-}
+        /*case 3:
+              resultsuma=suma(A,B);
+              break;
+       case 4:
+              resulresta=resta(A,B);
 
-}
+              break;
+       case 5:
+               resultdiv=division(A,B);
+
+                break;
+       case 6:
+               resultmult=multiplicar(A,B);
+
+               break;
+        case 7:
+               resultfacta=factorial(A,B);
+
+               resultfactb=factorial(A,B);
+
+               break;
+
+        case 5:
+
+               printf("\nQuiere continuar en la calculadora[S/N]:");
+
+               scanf("%c",&rta);
+
+               break;
+
+       //default:
+
+          */
+
+
+      //}
+
+      //printf("Quiere seguir usando la calculadora[S/N]");
+
+      //scanf("%c",&rta);
+
+      }while(menu!='N');
+
+     return 0;
+ }
+
