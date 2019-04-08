@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1554043705 source:c:\documents and settings\eze12\mis documentos\backup\estudio\terciario\utn\1 cuatrimestre\programacion 1 y  laboratorio\lenguaje c\ejercicios\integradores\integradoresmaxymin\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+

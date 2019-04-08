@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1553641225 source:d:\dfernandez\4_bibliotecas\funciones.c
+
+1553642582 source:d:\dfernandez\4_bibliotecas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1553641372 d:\dfernandez\4_bibliotecas\funciones.h
+
+1553647140 source:c:\documents and settings\eze12\mis documentos\downloads\clase 4\4_bibliotecas\funciones.c
+
+1553642582 source:c:\documents and settings\eze12\mis documentos\downloads\clase 4\4_bibliotecas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1553641372 c:\documents and settings\eze12\mis documentos\downloads\clase 4\4_bibliotecas\funciones.h
+
+1553815380 source:c:\documents and settings\eze12\mis documentos\backup\estudio\terciario\utn\1 cuatrimestre\programacion 1 y  laboratorio\lenguaje c\tp1laboratorio2019\tp1laboratorio2019\funcionsuma.c
+
+1553647140 source:c:\documents and settings\eze12\mis documentos\backup\estudio\terciario\utn\1 cuatrimestre\programacion 1 y  laboratorio\lenguaje c\ejercicios\clase 4\4_bibliotecas\funciones.c
+
+1553642582 source:c:\documents and settings\eze12\mis documentos\backup\estudio\terciario\utn\1 cuatrimestre\programacion 1 y  laboratorio\lenguaje c\ejercicios\clase 4\4_bibliotecas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1553641372 c:\documents and settings\eze12\mis documentos\backup\estudio\terciario\utn\1 cuatrimestre\programacion 1 y  laboratorio\lenguaje c\ejercicios\clase 4\4_bibliotecas\funciones.h
+
