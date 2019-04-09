@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1554776613 source:d:\ecaballero labyprog1 2019\clase lunes 8-4-19\primerosejemcadenadecaracteres\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
