@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1554851586 source:d:\ecaballero\segundosarraysparalelo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
