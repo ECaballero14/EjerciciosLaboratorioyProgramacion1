@@ -1,0 +1,7 @@
+#ifndef FUNCIONES_H_INCLUDED
+#define FUNCIONES_H_INCLUDED
+
+//aca van las estructuras y prototipos
+
+
+#endif // FUNCIONES_H_INCLUDED

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1556586853 source:d:\ecaballero 1cuatri2019\laboratorioyprogramacion1\### lab1\repasoparcialabm\abm.c
+	<stdio.h>
+	<stdlib.h>
+	"ABM.h"
+
+1556586429 d:\ecaballero 1cuatri2019\laboratorioyprogramacion1\### lab1\repasoparcialabm\abm.h
+
+1556587255 source:d:\ecaballero 1cuatri2019\laboratorioyprogramacion1\### lab1\repasoparcialabm\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ABM.h"
+
