@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1556361355 source:d:\ecaballero 1f prog-lab1\al repaso los sabados\abmlocalidadalumnos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Localidad.h"
+	"alumnos.h"
+
+1556360893 source:d:\ecaballero 1f prog-lab1\al repaso los sabados\abmlocalidadalumnos\localidad.c
+	"Localidad.h"
+
+1556353333 d:\ecaballero 1f prog-lab1\al repaso los sabados\abmlocalidadalumnos\localidad.h
+
+1556358794 source:d:\ecaballero 1f prog-lab1\al repaso los sabados\abmlocalidadalumnos\alumnos.c
+	"alumnos.h"
+
+1556355425 d:\ecaballero 1f prog-lab1\al repaso los sabados\abmlocalidadalumnos\alumnos.h
+
