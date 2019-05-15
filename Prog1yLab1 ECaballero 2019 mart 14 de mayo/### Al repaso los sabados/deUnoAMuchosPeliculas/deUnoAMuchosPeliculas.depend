@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1556973528 source:/media/usuario/compartida/#enC/deUnoAMuchosPeliculas/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estudios.h"
+	"peliculas.h"
+
+1556973308 source:/media/usuario/compartida/#enC/deUnoAMuchosPeliculas/estudios.c
+	"estudios.h"
+
+1556973182 /media/usuario/compartida/#enC/deUnoAMuchosPeliculas/estudios.h
+
+1556973095 /media/usuario/compartida/#enC/deUnoAMuchosPeliculas/peliculas.h
+
+1556973296 source:/media/usuario/compartida/#enC/deUnoAMuchosPeliculas/peliculas.c
+	"peliculas.h"
+
+1556973624 source:d:\laboratorio 1 ecaballero 2019\### al repaso los sabados\deunoamuchospeliculas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estudios.h"
+	"peliculas.h"
+
+1556973096 d:\laboratorio 1 ecaballero 2019\### al repaso los sabados\deunoamuchospeliculas\peliculas.h
+
+1556973308 source:d:\laboratorio 1 ecaballero 2019\### al repaso los sabados\deunoamuchospeliculas\estudios.c
+	"estudios.h"
+
+1556973296 source:d:\laboratorio 1 ecaballero 2019\### al repaso los sabados\deunoamuchospeliculas\peliculas.c
+	"peliculas.h"
+
+1556982530 source:d:\laboratorio 1 ecaballero 2019\### al repaso los sabados\deunoamuchospeliculas\estudios1.c
+	<stdio.h>
+	<stdlib.h>
+	"estudios1.h"
+
+1556981556 d:\laboratorio 1 ecaballero 2019\### al repaso los sabados\deunoamuchospeliculas\estudios1.h
+
+1556978935 source:d:\laboratorio 1 ecaballero 2019\### al repaso los sabados\deunoamuchospeliculas\peliculas1.c
+

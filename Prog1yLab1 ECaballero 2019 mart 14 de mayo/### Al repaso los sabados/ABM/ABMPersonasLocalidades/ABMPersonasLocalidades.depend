@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1230756195 source:c:\documents and settings\eze12\mis documentos\backup\estudio\terciario\utn\1 cuatrimestre\programacion 1 y  laboratorio 1\lenguaje c\ejercicios\al repaso los sabados\abm\abmpersonaslocalidades\main.c
+	<stdio.h>
+	<stdlib.h>
+	"localidad.h"
+
+1230756608 source:c:\documents and settings\eze12\mis documentos\backup\estudio\terciario\utn\1 cuatrimestre\programacion 1 y  laboratorio 1\lenguaje c\ejercicios\al repaso los sabados\abm\abmpersonaslocalidades\localidad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"localidad.h"
+
+1230757629 c:\documents and settings\eze12\mis documentos\backup\estudio\terciario\utn\1 cuatrimestre\programacion 1 y  laboratorio 1\lenguaje c\ejercicios\al repaso los sabados\abm\abmpersonaslocalidades\localidad.h
+
+1230785132 source:d:\laboratorio 1 ecaballero 2019\### al repaso los sabados\abm\abmpersonaslocalidades\main.c
+	<stdio.h>
+	<stdlib.h>
+	"localidad.h"
+
+1230785456 d:\laboratorio 1 ecaballero 2019\### al repaso los sabados\abm\abmpersonaslocalidades\localidad.h
+

@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1557190253 source:d:\laboratorio 1 ecaballero 2019\primerparcialabm\library.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"utn.h"
+	"library.h"
+
+1557190204 source:d:\laboratorio 1 ecaballero 2019\primerparcialabm\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"utn.h"
+	"library.h"
+
+1557189970 source:d:\laboratorio 1 ecaballero 2019\primerparcialabm\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
+1557186987 d:\laboratorio 1 ecaballero 2019\primerparcialabm\utn.h
+
+1557190794 d:\laboratorio 1 ecaballero 2019\primerparcialabm\library.h
+

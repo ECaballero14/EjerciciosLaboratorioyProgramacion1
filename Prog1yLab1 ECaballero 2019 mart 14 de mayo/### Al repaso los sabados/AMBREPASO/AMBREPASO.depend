@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1556379982 source:d:\laboratorio 1 ecaballero 2019\### al repaso los sabados\ambrepaso\localidad.c
+	<stdio.h>
+	<stdlib.h>
+	"localidad.h"
+
+1556376956 d:\laboratorio 1 ecaballero 2019\### al repaso los sabados\ambrepaso\localidad.h
+
+1556380148 source:d:\laboratorio 1 ecaballero 2019\### al repaso los sabados\ambrepaso\main.c
+	<stdio.h>
+	<stdlib.h>
+	"localidad.h"
+	"persona.h"
+
+1556380250 d:\laboratorio 1 ecaballero 2019\### al repaso los sabados\ambrepaso\persona.h
+	"localidad.h"
+
+1556379334 source:d:\laboratorio 1 ecaballero 2019\### al repaso los sabados\ambrepaso\persona.c
+	<stdio.h>
+	<stdlib.h>
+	"persona.h"
+
