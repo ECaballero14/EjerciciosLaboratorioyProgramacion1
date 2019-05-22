@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1557877267 source:d:\prog1ylab1 ecaballero 2019\primerospunterostres\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1557876816 d:\prog1ylab1 ecaballero 2019\primerospunterostres\utn.h
+
+1557877097 source:d:\prog1ylab1 ecaballero 2019\primerospunterostres\utn.c
+

@@ -43,10 +43,27 @@ B)	Modificar: Se ingresará el Código de Empleado, permitiendo en un submenú modi
 •	Salario
 •	Fecha de ingreso
 •	Sector
-B)	Baja:  Se ingresará el Código de Empleado y se realizará una baja lógica.
-C)	Listar: Hacer un único listado de todos los Empleados ordenados por apellido (ascendente) y nombre (ascendente).
+C)	Baja:  Se ingresará el Código de Empleado y se realizará una baja lógica.
+D)	Listar: Hacer un único listado de todos los Empleados ordenados por apellido (ascendente) y nombre (ascendente).
 
 ALMUERZOS: Se dará de alta cada ocurrencia de Almuerzo, relacionando Menu – Empleado, Fecha y Codigo de Almuerzo.
+
+************************************************************************************************************************
+
+E)INFORMAR:
+1)Total y promedio de los importes, y cuantos menues superan ese promedio.
+2)Total y promedio de los importes, y cuantos menues NO superan ese promedio.
+3)La cantidad de menues que fueron consumidos por al menos 5 (cinco) empleados.
+4)La cantidad de menues que fueron consumidos por menos de 5 (cinco) empleados.
+
+F)LISTAR:
+1)Todos los menues cuyo importe sea menor o igual a $125.
+2)Todos los menues cuyo importe sea mayor a $125.
+3)Todos los empleados que consumieron un menu determinado.
+4)Todos los menues consumidos por un empleado determinado.
+5)Todos los almuerzos consumidos en una fecha determinada.
+6)Todos los empleados que consumieron un almuerzo en una fecha determinada.
+
 
 
 NOTAS: 

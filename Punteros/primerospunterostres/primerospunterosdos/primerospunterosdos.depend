@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1557874582 source:d:\prog1ylab1 ecaballero 2019\primerospunterosdos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+
+1557873526 d:\prog1ylab1 ecaballero 2019\primerospunterosdos\utn.h
+
+1557874572 source:d:\prog1ylab1 ecaballero 2019\primerospunterosdos\utn.c
+
