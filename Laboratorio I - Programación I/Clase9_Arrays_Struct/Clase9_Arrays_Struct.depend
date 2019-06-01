@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1556212713 source:d:\laboratorio i - programación i\clase9_arrays_struct\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+
+1556212802 d:\laboratorio i - programación i\clase9_arrays_struct\producto.h
+
+1556212547 source:d:\laboratorio i - programación i\clase9_arrays_struct\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+

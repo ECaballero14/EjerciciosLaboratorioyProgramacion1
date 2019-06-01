@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1556819633 source:d:\laboratorio i - programación i\clase11\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"biblioteca.h"
+
+1556819329 d:\laboratorio i - programación i\clase11\biblioteca.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1556819887 source:d:\laboratorio i - programación i\clase11\biblioteca.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"biblioteca.h"
+
