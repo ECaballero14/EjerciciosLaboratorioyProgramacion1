@@ -1,0 +1,79 @@
+#include <LiquidCrystal.h>
+LiquidCrystal lcd(8,9,4,5,6,7);
+void setup()
+{
+  //pinMode(A0, OUTPUT);
+  Serial.begin(9600);
+  lcd.begin(16,2);
+  lcd.print("SALVENME");
+}
+
+int pinA0;
+int segundos = 0, minutos = 0,horas = 0,minutosP=0;
+unsigned long tiempo;
+void loop()
+{
+ 
+  pinA0 = analogRead(A0);
+  imprimirHora();
+  //imprimirBoton(pinA0);
+}
+
+void imprimirHora(){
+ tiempo = millis()/1000;
+ minutos = tiempo / 60; 
+ segundos = tiempo % 60; 
+ horas = minutos/60;
+ // segundos/60
+/*  
+  segundos = (tiempo-((minutosP*60)*1000))/1000;
+  
+  if(segundos == 60){
+    minutos++;
+    minutosP++;
+    segundos -= 20;
+  }
+  if(minutos == 60){
+    horas++;
+  }*/
+  lcd.setCursor(0,1);
+  //lcd.print("Sec:");
+  //lcd.setCursor(4,1);
+  if(segundos<10){
+    lcd.print("0");
+  }
+  lcd.print(segundos);
+  lcd.print(":");
+  lcd.setCursor(3,1);
+  if(minutos<60){
+    lcd.print("0");
+  }
+  
+  lcd.print(minutos);
+  lcd.print(":");
+  lcd.setCursor(5,1);
+  lcd.print(horas);
+}
+void imprimirBoton(int pin){
+  lcd.setCursor(0,1);
+  
+  if(pin<72){
+    lcd.print("DERECHA     ");
+  }
+  
+  if(pin >72 && pin < 200){
+      lcd.print("ARRIBA    ");
+    }
+    
+  if(pin >200 && pin < 400){
+      lcd.print("ABAJO     ");
+    }
+
+ if(pin >400 && pin <620){
+      lcd.print("IZQUIERDA     ");
+    }
+
+    if(pin >620 && pin < 900){
+      lcd.print("SELECT    ");
+    }
+}
